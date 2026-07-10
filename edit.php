@@ -2,7 +2,6 @@
 include 'koneksi.php';
 
 $id = intval($_GET['id']);
-
 $data = mysqli_query($koneksi, "SELECT * FROM buku_undangan WHERE id='$id'");
 $row = mysqli_fetch_assoc($data);
 
@@ -27,7 +26,6 @@ if(isset($_POST['update'])){
     </script>";
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -146,7 +144,6 @@ if(isset($_POST['update'])){
                             <a href="admin.php" class="btn btn-secondary">
                                 ← Kembali ke Dashboardd
                             </a>
-
                         </div>
 
                     </form>

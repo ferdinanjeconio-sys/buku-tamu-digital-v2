@@ -2,7 +2,6 @@
 session_start();
 include 'koneksi.php'; 
 
-// Pengaturan kata sandi masuk admin
 $KATA_SANDI_BENAR = "baksocenot"; 
 
 if (isset($_POST['login_admin'])) {
@@ -142,7 +141,6 @@ Selamat Datang di Dashboard Admin
         "SELECT * FROM buku_undangan
          WHERE nama_tamu LIKE '%$cari%'
          ORDER BY waktu_hadir DESC");
-
 } else {
 
     $query = mysqli_query($koneksi,
@@ -171,7 +169,6 @@ class='btn btn-danger btn-sm'
 onclick='return confirm(\"Hapus entri data ini secara permanen?\")'>
 🗑 Hapus
 </a>
-
 </td>
       </tr>";
                     $no++;

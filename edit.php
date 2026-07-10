@@ -144,7 +144,7 @@ if(isset($_POST['update'])){
                             </button>
 
                             <a href="admin.php" class="btn btn-secondary">
-                                ← Kembali ke Dashboard
+                                ← Kembali ke Dashboardd
                             </a>
 
                         </div>

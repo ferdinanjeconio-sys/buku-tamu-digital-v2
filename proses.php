@@ -13,6 +13,7 @@ $query = "INSERT INTO buku_undangan
 VALUES
 ('$nama_tamu','$hubungan','$jumlah_pax','$instansi')";
     $insert = mysqli_query($koneksi, $query);
+    
 
     if ($insert) {
         echo "<script>

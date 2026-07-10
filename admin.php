@@ -2,7 +2,7 @@
 session_start();
 include 'koneksi.php'; 
 
-// Pengaturan kata sandi masuk admin
+
 $KATA_SANDI_BENAR = "baksocenot"; 
 
 if (isset($_POST['login_admin'])) {
